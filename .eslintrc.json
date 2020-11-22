@@ -1,25 +1,29 @@
 {
-    "extends": ["airbnb", "prettier"],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error",
-      "no-unused-vars": "warn",
-      "no-console": "off",
-      "func-names": "off",
-      "no-process-exit": "off",
-      "object-shorthand": "off",
-      "class-methods-use-this": "off",
-      "import/no-unresolved": 0,
-      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-    },
-    "parserOptions": {
-        "sourceType": "module"
-    },
-    "settings": {
-      "import/resolver": {
-        "node": {
-        "extensions": [".js", ".jsx", ".json", ".native.js"]
-        }
-      }
-    }
+  "parser": "babel-eslint",
+  "parserOptions": {
+  "ecmaFeatures": {
+    "jsx": true
   }
+},
+  "env": {
+    "browser": true,
+    "amd": true
+  },
+  "plugins": ["react", "react-native"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "react-native/no-raw-text": 2,
+    "react-native/sort-styles": [
+      "error",
+      "asc",
+       {
+         "ignoreClassNames": false,
+         "ignoreStyleProperties": false
+       }
+     ]
+  }
+}
