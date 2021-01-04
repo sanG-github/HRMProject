@@ -12,7 +12,7 @@ const LandingPage = () => {
       <ImageBackground 
         resizeMode='cover' 
         style={styles.image}
-        source={require('../assets/background_gradient.jpg')}>
+        source={require('../assets/images/background_gradient.jpg')}>
         <Text style={styles.logo}>HRM</Text>
       </ImageBackground>
     </View>

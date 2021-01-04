@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434056138058",
+    "project_id": "hrm-nsq",
+    "storage_bucket": "hrm-nsq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434056138058:android:939b9f58ca70302df905b3",
+        "android_client_info": {
+          "package_name": "com.HRM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434056138058-mmiiu87tqd2jpekfbf3ig54m9qqe8jbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv5uJIpnKQK4Dd2rZhF7rbhy61q-epH8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434056138058-mmiiu87tqd2jpekfbf3ig54m9qqe8jbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
